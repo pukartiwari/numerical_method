@@ -1,0 +1,16 @@
+1. Decide initial values of a & b and stopping criterion E.
+2. Compute f1=f(a) & f2 =f(b)
+3. if f1*f2>0, a&b do not have any root and got ot step 7; otherwise continue.
+4. Compute *x=(a+b)/2 and co,pute f0=f(*x)
+5. if f1*f0<0 then 
+	set b=*x
+else 
+	set a=*x
+	set f1=fo
+6. if absolute value of(b-a)/b is less tha error E, then 
+	root =(a+b)/2
+	write the value of root
+	go to step7
+else 
+	got ot step 4
+7. stop
